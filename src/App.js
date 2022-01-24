@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar } from './components';
+import { Brand, Navbar } from './components';
 import { Header } from './containers';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
+      <Brand />
     </div>
   );
 }
