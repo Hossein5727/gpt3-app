@@ -28,6 +28,7 @@ function Header() {
                 <img
                     src={ai}
                     alt='ai'
+                    loading='lazy'
                 />
             </div>
         </div>
