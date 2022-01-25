@@ -1,6 +1,6 @@
 import './App.css';
 import { Brand, Navbar } from './components';
-import { Features, Header, WhatGPT3 } from './containers';
+import { Features, Header, Possibility, WhatGPT3 } from './containers';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Brand />
       <WhatGPT3 />
       <Features />
+      <Possibility />
     </div>
   );
 }
